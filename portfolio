@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <s<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <style>
+        .about {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:black;
+            text-decoration: none;
+            padding-right: 40px;
+            font-size: 20px; 
+            margin-left: 900px;
+            margin-right: 30px;     
+        }
+        .education {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:black;
+            text-decoration: none;
+            padding-right: 40px;
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        .skills {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:black;
+            text-decoration: none;
+            padding-right: 40px;
+            font-size: 20px;  
+            margin-right: 20px; 
+        }
+
+        .container {
+            margin-top:70px;
+            background: #e0e0e0;
+            display:flex;
+            align-items: center;
+        }
+
+        h5 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: lighter;
+            font-size: 20px;
+            padding-left: 80px;
+        }
+
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder ;
+            font-size: 40px;
+            padding-left: 80px;
+        }
+        #container {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            background-color: white;
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 60px;
+        }
+        .about_button,
+        .education_button,
+        .achievements_button{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+            background-color: gray;
+            border-radius: 5px;
+            margin-right: 20px;
+            font-size: 20px;
+            padding: 15px 3px;
+            margin-bottom: 20px;
+        }
+        .image {
+            margin-left:900px;
+            width:20px;
+            height: 20px;
+        }
+        .table {
+            margin-left:20px;
+            font-size: 16px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th,td {
+            border:1px solid #ccc;
+            padding: 8px;
+            text-align:left;
+        }
+        .skills {
+            display:flex;
+            padding: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="background-color: #eceff1;
+    padding:10px;
+    width:100%;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center;font-size:38px;">MY PORTFOLIO</h1>
+    <div class="container">
+        <img src="C:\Users\sneha\Downloads\user-profile-4255 (1).png" alt="profile">
+        <div>
+            <h5>ABOUT ME</h5>
+            <p>I am Kandivalasa Sneha, a student of Bachelor of Technology at Jawaharlal Nehru Technological University.</p>
+        </div>
+    </div>
+    <nav id="container">
+        <button class ="about_button" type = "button" >ABOUT</button>
+        <button class="education_button" type="button">EDUCATION</button>
+        <button class="achievements_button" type="button">ACHIEVEMENTS</button>   
+    </nav>
+    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 80px;">EDUCATION QUALIFICATION</h1>
+    <div class="image">
+        <img src = "C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot (220).png">
+    </div>
+    <div class=" content">
+        <table style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <tr>
+                <th>Institute</th>
+                <th>Qualification</th>
+                <th>Percentage</th>
+                <th>Year Of Qualification</th>
+            </tr>
+            <tr>
+                <td>Catherine School</td>
+                <td>SSC</td>
+                <td>97%</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>Sri Basara Junior Colloge</td>
+                <td>Intermediate</td>
+                <td>95%</td>
+                <td>2019-2021</td>
+            </tr>
+            <tr>
+                <td>Jawaharlal Nehru Technological University</td>
+                <td>B.Tech</td>
+                <td>Pursuing</td>
+                <td>2021-2025</td>
+            </tr>
+        </table>
+    </div>
+    <section>
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+        padding-left: 80px;">ACHIEVEMENTS</h1>
+        <div class="ACHIEVEMENTS">
+            <ul style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder ;
+            font-size: 20px;
+            padding-left: 80px;">
+                <li>Codsoft</li>
+                <li>Edureka</li>
+                <li>Sololearn</li>
+            </ul>
+        </div>
+    </section>
+        
+</body>
+</html>tyle>
+        .about {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:black;
+            text-decoration: none;
+            padding-right: 40px;
+            font-size: 20px; 
+            margin-left: 900px;
+            margin-right: 30px;     
+        }
+        .education {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:black;
+            text-decoration: none;
+            padding-right: 40px;
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        .skills {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:black;
+            text-decoration: none;
+            padding-right: 40px;
+            font-size: 20px;  
+            margin-right: 20px; 
+        }
+
+        .container {
+            margin-top:70px;
+            background: #e0e0e0;
+            display:flex;
+            align-items: center;
+        }
+
+        h5 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: lighter;
+            font-size: 20px;
+            padding-left: 80px;
+        }
+
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder ;
+            font-size: 40px;
+            padding-left: 80px;
+        }
+        #container {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            background-color: white;
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 60px;
+        }
+        .about_button,
+        .education_button,
+        .achievements_button{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+            background-color: gray;
+            border-radius: 5px;
+            margin-right: 20px;
+            font-size: 20px;
+            padding: 15px 3px;
+            margin-bottom: 20px;
+        }
+        .image {
+            margin-left:900px;
+            width:20px;
+            height: 20px;
+        }
+        .table {
+            margin-left:20px;
+            font-size: 16px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th,td {
+            border:1px solid #ccc;
+            padding: 8px;
+            text-align:left;
+        }
+        .skills {
+            display:flex;
+            padding: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="background-color: #eceff1;
+    padding:10px;
+    width:100%;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center;font-size:38px;">MY PORTFOLIO</h1>
+    <div class="container">
+        <img src="C:\Users\sneha\Downloads\user-profile-4255 (1).png" alt="profile">
+        <div>
+            <h5>ABOUT ME</h5>
+            <p>I am Kandivalasa Sneha, a student of Bachelor of Technology at Jawaharlal Nehru Technological University.</p>
+        </div>
+    </div>
+    <nav id="container">
+        <button class ="about_button" type = "button" >ABOUT</button>
+        <button class="education_button" type="button">EDUCATION</button>
+        <button class="achievements_button" type="button">ACHIEVEMENTS</button>   
+    </nav>
+    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 80px;">EDUCATION QUALIFICATION</h1>
+    <div class="image">
+        <img src = "C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot (220).png">
+    </div>
+    <div class=" content">
+        <table style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <tr>
+                <th>Institute</th>
+                <th>Qualification</th>
+                <th>Percentage</th>
+                <th>Year Of Qualification</th>
+            </tr>
+            <tr>
+                <td>Catherine School</td>
+                <td>SSC</td>
+                <td>97%</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>Sri Basara Junior Colloge</td>
+                <td>Intermediate</td>
+                <td>95%</td>
+                <td>2019-2021</td>
+            </tr>
+            <tr>
+                <td>Jawaharlal Nehru Technological University</td>
+                <td>B.Tech</td>
+                <td>Pursuing</td>
+                <td>2021-2025</td>
+            </tr>
+        </table>
+    </div>
+    <section>
+        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+        padding-left: 80px;">ACHIEVEMENTS</h1>
+        <div class="ACHIEVEMENTS">
+            <ul style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder ;
+            font-size: 20px;
+            padding-left: 80px;">
+                <li>Codsoft</li>
+                <li>Edureka</li>
+                <li>Sololearn</li>
+            </ul>
+        </div>
+    </section>
+        
+</body>
+</html>

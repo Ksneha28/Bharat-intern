@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix landing page</title>
+    <style>
+    body {
+        background: url(https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    }
+    .search_link {
+        color: white;
+        text-decoration: none;
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 1000px;
+        padding-right: 40px;
+        font-size: 20px;
+    }
+    .search_link:hover {
+        font-size: large ;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    
+    .home_link {
+        color: white;
+        text-decoration: none;
+        text-align: left;
+        padding-top: 10px;
+        padding-right: 40px;
+        font-size: 20px;
+    }
+    .home_link:hover {
+        font-size: large;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+
+    .movies_link {
+        color:white;
+        text-decoration: none;
+        text-align: left;
+        padding-top: 10px;
+        padding-right: 40px;
+        font-size: 20px;
+    }
+    .movies_link:hover {
+        font-size: large;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+
+    .kids_link {
+        color:white;
+        text-decoration: none;
+        text-align: left;
+        padding-top: 10px;
+        padding-right: 40px;
+        font-size: 20px;
+    }
+    .kids_link:hover {
+        font-size: large;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    
+    img {
+        display:flex;
+        padding-top: 0px;
+        padding-left: 20px;
+        height:40px;
+        width: 90px;
+    }
+    h1 {
+        padding-top: 180px;
+        color:white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 70px;
+    }
+    h2 {
+        padding-top: 0px;
+        text-align: center;
+        color: white;
+        margin-top: 0;
+        font-size: 20px;
+    }
+    button {
+        text-align: center;
+        display:block;
+        margin: 20px auto;
+        border-radius: 10px;
+        color: white;
+        background-color: red;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 10px 50px;
+    }
+    </style>
+</head>
+<body>
+    <a href="#search" class="search_link">Search</a>
+    <a href="#home" class="home_link">Home</a>
+    <a herf="#movies" class="movies_link">Movies</a>
+    <a herf="#kids" class="kids_link">Kids</a>
+    <img src="C:\Users\sneha\OneDrive\Pictures\Screenshots\Screenshot (215).png" alt="logo">
+    <div>
+        <h1>See what's next</h1>
+        <h2>WATCH ANYWHERE. CANCEL ANYTIME</h2>
+    </div>
+    <div>
+        <button type="submit"> WATCH FREE FOR 30 DAYS</button>
+    </div>
+    </body>
+</body>
+</html>
